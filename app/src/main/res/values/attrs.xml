@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WatchFaceView">
+        <!-- 秒针颜色 -->
+        <attr name="secondColor" format="color" />
+        <!-- 分针颜色 -->
+        <attr name="minuteColor" format="color" />
+        <!-- 时针颜色 -->
+        <attr name="hourColor" format="color" />
+        <!-- 刻度颜色 -->
+        <attr name="scaleColor" format="color" />
+        <!-- 表盘背景 -->
+        <attr name="watchFaceBg" format="reference" />
+        <!-- 是否展示刻度 -->
+        <attr name="showScale" format="boolean" />
+    </declare-styleable>
+</resources>
